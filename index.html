@@ -7,7 +7,7 @@
     </head>
 
     <body>
-
+        <!-- Player State-->
         <div hidden class="state" id="state">
             <div class="container">
                 <div class="circles-wrapper">
@@ -17,6 +17,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Animation for winning player -->
         <h1 hidden id="result" class="neon">
                 <div class="text">
                   <span style="--i:1" id="ganador"></span>
@@ -26,6 +28,8 @@
                   <span style="--i:5"> S </span>
                 </div>
         </h1>
+
+        <!-- GRID 3X3 -->
         <div id="game" class="neon">
             <div class="cell neon"></div>
             <div class="cell neon"></div>
@@ -36,8 +40,9 @@
             <div class="cell neon"></div>
             <div class="cell neon"></div>
             <div class="cell neon"></div>
-
         </div>
+
+        <!-- Restart button -->
         <div>
             <button id="reiniciar" class="neon-button">Reiniciar</button>
         </div>
