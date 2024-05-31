@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <div hidden class="state" id="state">
+            <div class="container">
+                <div class="circles-wrapper">
+                    <div class="circle circle-lg">
+                       <h1><span id="estado"></span> TURN</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 hidden id="result" class="neon">
+                <div class="text">
+                  <span style="--i:1" id="ganador"></span>
+                  <span style="--i:2"> W </span>
+                  <span style="--i:3"> I </span>
+                  <span style="--i:4"> N </span>
+                  <span style="--i:5"> S </span>
+                </div>
+        </h1>
+        <div id="game" class="neon">
+            <div class="cell neon"></div>
+            <div class="cell neon"></div>
+            <div class="cell neon"></div>
+            <div class="cell neon"></div>
+            <div class="cell neon"></div>
+            <div class="cell neon"></div>
+            <div class="cell neon"></div>
+            <div class="cell neon"></div>
+            <div class="cell neon"></div>
+
+        </div>
+        <div>
+            <button id="reiniciar" class="neon-button">Reiniciar</button>
+        </div>
+        <script src="behavior.js"></script>
+    </body>
+</html>
